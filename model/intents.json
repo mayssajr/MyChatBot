@@ -1,0 +1,83 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey",
+          "How's it going?",
+          "Good day",
+          "Is anyone here?"
+        ],
+        "responses": [
+          "Hello! How can I assist you with IoT and embedded systems today?",
+          "Hi there! Ready to learn about IoT?",
+          "Hey! How can I help you with embedded systems?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Goodbye", "See you", "Bye", "Talk to you later"],
+        "responses": [
+          "Goodbye! Happy tinkering with IoT!",
+          "See you later! Keep exploring embedded systems!",
+          "Bye! Come back if you have more questions about IoT."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "I appreciate it", "Much appreciated"],
+        "responses": [
+          "You're welcome! Glad I could help with IoT.",
+          "No problem! Happy to assist with your embedded systems journey.",
+          "Anytime! Let me know if you have more questions."
+        ]
+      },
+      {
+        "tag": "iot_intro",
+        "patterns": [
+          "What is IoT?",
+          "Can you explain the Internet of Things?",
+          "Tell me about IoT"
+        ],
+        "responses": [
+          "IoT stands for the Internet of Things, which refers to the network of physical devices connected to the internet, sharing data and performing tasks without human intervention."
+        ]
+      },
+      {
+        "tag": "embedded_intro",
+        "patterns": [
+          "What are embedded systems?",
+          "Can you explain embedded systems?",
+          "Tell me about embedded systems"
+        ],
+        "responses": [
+          "Embedded systems are specialized computing systems that perform dedicated functions, often within larger systems. They are integral to many IoT devices."
+        ]
+      },
+      {
+        "tag": "iot_examples",
+        "patterns": [
+          "Give me examples of IoT devices",
+          "What are some IoT examples?",
+          "Can you list some IoT applications?"
+        ],
+        "responses": [
+          "Some common IoT devices include smart thermostats, wearable fitness trackers, smart home security systems, and connected appliances like smart fridges."
+        ]
+      },
+      {
+        "tag": "embedded_examples",
+        "patterns": [
+          "Give me examples of embedded systems",
+          "What are some embedded system applications?",
+          "Can you list some embedded systems?"
+        ],
+        "responses": [
+          "Examples of embedded systems include microcontrollers in home appliances, automotive control systems, and medical devices like pacemakers."
+        ]
+      }
+    ]
+  }
+  
